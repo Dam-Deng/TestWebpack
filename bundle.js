@@ -42,12 +42,21 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by dam on 26/12/2016.
+	 */
+	document.write(__webpack_require__(1));
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
 	/**
 	 * Created by dam on 26/12/2016.
 	 */
-	document.write('Hello Webpack');
+	module.exports = 'content.js is work';
 
 /***/ }
 /******/ ]);
