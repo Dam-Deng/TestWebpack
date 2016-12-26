@@ -5,6 +5,7 @@
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
     "build": "webpack ./entry.js bundle.js",
     "build-with-css-style": "webpack ./entry.js bundle.js --module-bind 'css=style!css'"
   },
